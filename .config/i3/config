@@ -6,7 +6,7 @@ set $mod Mod4
 bindsym $mod+grave exec rofi -show run 
 
 #run sharenix
-bindsym $mod+Shift+Delete exec /home/artic/sharenix-git/src/sharenix/sharenix-section
+bindsym $mod+Shift+Delete exec flameshot gui
 
 #lock desktop
 bindsym $mod+L exec i3lock-fancy
