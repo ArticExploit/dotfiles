@@ -5,11 +5,8 @@ set $mod Mod4
 #run rofi
 bindsym $mod+grave exec rofi -show run 
 
-#run sharenix
+#run flameshot
 bindsym $mod+Shift+Delete exec flameshot gui
-
-#lock desktop
-bindsym $mod+L exec i3lock-fancy
 
 # Assign Workspaces:
 assign [class="Chromium"] $ws2
@@ -21,7 +18,6 @@ assign [class="Rhythmbox"] $ws6
 assign [class="Deezer"] $ws6
 assign [class="deezerrpc"] $ws6
 
-exec_always picom -f
 exec_always xrandr -s 5120x1440
 exec_always feh --bg-scale /home/artic/Pictures/camp.jpg
 exec_always --no-startup-id /home/artic/.config/polybar/poly.sh
@@ -29,8 +25,9 @@ exec --no-startup-id i3-msg 'workspace 1; exec kitty'
 exec --no-startup-id discord
 exec --no-startup-id rambox
 exec --no-startup-id discordrpcmaker
-set $unfocused_border #72afff
-set $focused_border #82ff80
+exec_always picom
+set $unfocused_border #ffffff
+set $focused_border #ffffff
 
 for_window [workspace="1"] floating enable
 floating_minimum_size 730 x 550
