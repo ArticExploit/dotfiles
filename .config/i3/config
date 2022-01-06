@@ -1,3 +1,4 @@
+#!/bin/bash
 set $mod Mod4
 
 #########################################################################################
@@ -34,6 +35,10 @@ floating_minimum_size 730 x 550
 floating_maximum_size 730 x 550
 
 hide_edge_borders both
+
+bindsym F7 exec pactl set-card-profile alsa_card.usb-GuangZhou_FiiO_Electronics_Co._Ltd_FiiO_Q1_FA141069-00 off && pactl set-card-profile alsa_card.pci-0000_00_1f.3 output:iec958-stereo
+
+bindsym F8 exec pactl set-card-profile alsa_card.usb-GuangZhou_FiiO_Electronics_Co._Ltd_FiiO_Q1_FA141069-00 output:iec958-stereo && pactl set-card-profile alsa_card.pci-0000_00_1f.3 off
 
 #########################################################################################
 
