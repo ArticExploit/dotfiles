@@ -16,8 +16,7 @@ assign [class="Rambox"] $ws3
 assign [class="discordrpcmaker"] $ws3
 for_window [class="Minecraft Launcher"] move to workspace $ws4
 assign [class="Rhythmbox"] $ws6
-assign [class="Deezer"] $ws6
-assign [class="deezerrpc"] $ws6
+for_window [class="Spotify"] move to workspace $ws6
 
 exec_always xrandr -s 5120x1440
 exec_always feh --bg-scale /home/artic/Pictures/camp.jpg
