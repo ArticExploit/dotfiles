@@ -12,7 +12,7 @@ bindsym $mod+Shift+Delete exec flameshot gui
 # Assign Workspaces:
 assign [class="Chromium"] $ws2
 assign [class="discord"] $ws3
-assign [class="Rambox"] $ws3
+assign [class="rambox"] $ws3
 assign [class="discordrpcmaker"] $ws3
 for_window [class="Minecraft Launcher"] move to workspace $ws4
 assign [class="Rhythmbox"] $ws6
