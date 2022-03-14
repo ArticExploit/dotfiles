@@ -25,6 +25,8 @@ exec --no-startup-id i3-msg 'workspace 1; exec kitty'
 exec --no-startup-id discord
 exec --no-startup-id rambox
 exec --no-startup-id discordrpcmaker
+exec --no-startup-id i3-msg 'workspace 6; exec spotify'
+exec --no-startup-id i3-msg 'workspace 2; exec chromium'
 exec_always picom
 set $unfocused_border #ffffff
 set $focused_border #ffffff
