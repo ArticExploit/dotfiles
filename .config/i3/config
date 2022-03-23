@@ -12,7 +12,7 @@ bindsym $mod+Shift+Delete exec flameshot gui
 # Assign Workspaces:
 assign [class="Chromium"] $ws2
 assign [class="discord"] $ws3
-assign [class="rambox"] $ws3
+assign [class="Hamsket"] $ws3
 assign [class="discordrpcmaker"] $ws3
 for_window [class="Minecraft Launcher"] move to workspace $ws4
 assign [class="Rhythmbox"] $ws6
@@ -23,7 +23,7 @@ exec_always feh --bg-scale /home/artic/Pictures/camp.jpg
 exec_always --no-startup-id /home/artic/.config/polybar/poly.sh
 exec --no-startup-id i3-msg 'workspace 1; exec kitty'
 exec --no-startup-id discord
-exec --no-startup-id rambox
+exec --no-startup-id hamsket
 exec --no-startup-id discordrpcmaker
 exec --no-startup-id i3-msg 'workspace 6; exec spotify'
 exec --no-startup-id i3-msg 'workspace 2; exec chromium'
