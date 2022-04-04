@@ -10,7 +10,7 @@ bindsym $mod+grave exec rofi -show run
 bindsym $mod+Shift+Delete exec flameshot gui
 
 # Assign Workspaces:
-assign [class="Chromium"] $ws2
+assign [class="Brave-browser"] $ws2
 assign [class="discord"] $ws3
 assign [class="Hamsket"] $ws3
 assign [class="discordrpcmaker"] $ws3
@@ -26,7 +26,7 @@ exec --no-startup-id discord
 exec --no-startup-id hamsket
 exec --no-startup-id discordrpcmaker
 exec --no-startup-id i3-msg 'workspace 6; exec spotify'
-exec --no-startup-id i3-msg 'workspace 2; exec chromium'
+exec --no-startup-id i3-msg 'workspace 2; exec brave'
 exec_always picom
 set $unfocused_border #ffffff
 set $focused_border #ffffff
