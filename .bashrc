@@ -22,8 +22,6 @@ export EDITOR
 ## The maximum number of lines in your history file
 export HISTFILESIZE=50
 
-force_color_prompt=yes
-
 PS1='\[\e[0;36m\]\u\[\e[0;33m\]@\[\e[0;36m\]\h \[\e[0;1;38;5;104m\]| \[\e[0;36m\]\w\n\[\e[0;1;91m\]λ \[\e[0m\]'
 
 #Aliases
