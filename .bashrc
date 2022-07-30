@@ -11,10 +11,8 @@ export PATH="$PATH:/usr/sbin:/sbin:/bin:/usr/bin:/etc:/usr/ucb:/usr/local/bin:/u
 ## Where to search for manual pages
 export MANPATH="/usr/share/man:/usr/local/man:/usr/local/local_dfs/man"
 
-## Which pager to use.
+## Programs
 export PAGER=less
-
-## Choose your weapon
 export VISUAL=nvim
 export EDITOR="$VISUAL"
 export EDITOR
